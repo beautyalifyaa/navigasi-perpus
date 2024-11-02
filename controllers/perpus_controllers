@@ -1,0 +1,20 @@
+import 'package:navigasi_perpus/models/perpus.dart';
+
+class PerpusControllers {
+  List<Perpus> perpus = [
+    Perpus(
+      id: 1,
+      judul: "Keluarga Super Irit 39",
+      deskripsi: "Mama pergi berlibur dengan adik ipar. Sogeum pun sedang mengikuti acara dan menginap di luar selama beberapa hari. Papa, Kakek, dan Deollong yakin mereka mampu mengurus dan membereskan rumah tanpa mama dan Sogeum. Namun, melakukan pekerjaan rumah tangga ternyata sangat sulit. Tentunya malas sekali melakukan beres-beres itu. Ternyata, hari ini kepulangan Mama. Mereka harus segera membereskan rumah yang sangat berantakan. Untung ada Soegum yang sudah pulang terlebih dahulu. Sogeum tentunya selalu banyak tip dan trik dalam hal bersih-bersih. Mencuci alat makan dan peralatan dapur ada urutannya, lho. Demikian juga mencuci baju, ada trik agar baju berwarna putih tidak terkena noda luntur. Yuk, ikuti keseruan Keluarga Bindae! Jangan lupa untuk selalu mengingat tip dan trik berhemat dari Keluarga Super Irit! Keluarga Super Irit merupakan seri laris yang sudah terbit dari volume 1 hingga sekarang volume 39. Selain ceritanya kocak dna diperuntukan bagi anak-anak, tetapi tip dan triknya dalam berhemat tentunya berguna bagi para orangtua! Ayo, koleksi semuanya!",
+      penerbit: "Bhuana Ilmu Populer",
+      karya: 'Kim Yoon Soo',
+      stock: "10",
+      voteAverage: 5,
+      posterPath: 'cover keluarga super irit.jpg'
+
+    )
+  ];
+  addData(){
+    
+  }
+}
